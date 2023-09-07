@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "Python: Django",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}\\manage.py",
+            "args": [
+                "runserver",
+                "9000"
+            ],
+            "django": true,
+            "justMyCode": true,
+            "logToFile": true,
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "host": "localhost"
+        }
+    ]
+}
