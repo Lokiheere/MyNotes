@@ -6,6 +6,9 @@ __pycache__
 db.sqlite3
 media
 
+# Node.js
+node_modules/*
+
 # Backup files # 
 *.bak 
 
@@ -50,7 +53,6 @@ atlassian-ide-plugin.xml
 *$py.class 
 
 # Distribution / packaging 
-node_modules/
 .Python build/ 
 develop-eggs/ 
 dist/ 
